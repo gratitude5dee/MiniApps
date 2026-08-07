@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "owners": [
+    {
+      "acceptanceIds": [
+        "source.image.upload",
+        "background.enabled",
+        "background.color",
+        "export.image.format",
+        "export.image.resolution",
+        "output.export",
+        "canvas.infinity.mode",
+        "canvas.infinity.export",
+        "persistence.reload"
+      ],
+      "kind": "functional",
+      "path": "src/app/app-composition.tsx"
+    },
+    {
+      "acceptanceIds": [
+        "source.image.upload",
+        "background.enabled",
+        "background.color",
+        "export.image.format",
+        "export.image.resolution",
+        "output.export",
+        "canvas.infinity.mode",
+        "canvas.infinity.export",
+        "persistence.reload"
+      ],
+      "kind": "functional",
+      "path": "src/app/app-schema.ts"
+    },
+    {
+      "acceptanceIds": ["background.enabled", "background.color"],
+      "kind": "functional",
+      "path": "src/app/wzrd-background.tsx"
+    },
+    {
+      "acceptanceIds": ["background.enabled", "background.color"],
+      "kind": "presentation",
+      "path": "src/app/wzrd-background.module.css"
+    },
+    {
+      "acceptanceIds": ["canvas.infinity.mode", "canvas.infinity.export"],
+      "kind": "functional",
+      "path": "src/app/wzrd-scene-bounds.ts"
+    }
+  ]
+}
